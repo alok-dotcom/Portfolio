@@ -12,7 +12,7 @@ const aboutData = {
   github: 'https://github.com/alok-dotcom',
   linkedin: 'https://www.linkedin.com/in/alok-raj-329127198/',
   // codepen: 'https://codepen.io/vsharma20v',
-  mail: 'alok.nit10@gmail.com',
+  mail: 'mailto:alok.nit10@gmail.com',
   // twitter: 'https://twitter.com/VaibhavDesDev',
   // behance: 'https://www.behance.net/vsharma20v',
 };

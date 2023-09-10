@@ -14,7 +14,7 @@ const infoData = {
       Url: 'https://tekion.com/',
       role: 'ASE Intern (Frontend)',
       textColor: '#05deba',
-      duration: 'Jan 2023 – Present',
+      duration: 'Jan 2023 – July 2023',
       aboutRolePara1: `Experienced in contributing to the development of FormBuilder, a dynamic application featuring a
 user-friendly canvas interface enabling the intuitive dragging and dropping of container elements, including
 rows.`,

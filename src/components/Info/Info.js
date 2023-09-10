@@ -85,7 +85,7 @@ const Info = ({ changeActive }) => {
         </h1>
         <a
           className={styles["info-section-download-btn"]}
-          href="https://drive.google.com/file/d/1OIdzDBy9B7BpEbb7tW5oQpEwGWT3oPy4/view"
+          href="https://drive.google.com/file/d/1djmFMpM6LN1x_Bb7SP8_ynAXTHmUDvOE/view"
           target="_blank"
           rel="noreferrer"
           download

@@ -3,11 +3,29 @@ import sxc from '../assets/sxc.jpeg';
 import splitWise from '../assets/splitWise.jpeg';
 import linkedDev from '../assets/linkedDev.png';
 import tekionLogo from '../assets/tekion-logo.png';
+import lifeaseLogo from '../assets/lifease-logo.jpg';
 
 const infoData = {
   experience: [
     {
       id: 0,
+      logoAlt: 'Lifease',
+      logoSrc: lifeaseLogo,
+      name: 'Lifease.in',
+      Url: 'https://www.lifease.in/',
+      role: 'SDE -1 (Frontend)',
+      textColor: '#0083E2',
+      duration: 'Nov 2023 - present',
+      aboutRolePara1: `Architected and implemented a React-based UI component library with Tailwind CSS, boosting visual
+      consistency and streamlining development efficiency for the company’s web app; resulted in a significant
+      reduction in front-end development time and improved user experience.`,
+      aboutRolePara2: `Efficiently transitioned a React web application to Next.js, significantly enhancing initial load speeds and
+      drastically boosting SEO performance.`,
+      aboutRolePara3: `Engineered secure and user-friendly session-based authentication systems providing safe application.`,
+      technologies: 'React.js, Nextjs, Typescript, TailwindCSS, Material UI, Storybook',
+    },
+    {
+      id: 1,
       logoAlt: 'Tekion',
       logoSrc: tekionLogo,
       name: 'Tekion',
@@ -51,7 +69,7 @@ rows.`,
       logoAlt: 'SplitWise',
       logoSrc: splitWise,
       name: 'SplitWise',
-      Url: 'https://splitwise-alok.netlify.app/',
+      Url: 'https://splitwise-three.vercel.app',
       technologies: 'React.js, Redux, Netlify',
       about1: `Expense Management: Implemented an intuitive interface that enables users to add expenses and split them among friends.
 Supported split types include equal and percentage`,
@@ -84,11 +102,13 @@ or create new ones by typing the name. Leveraged React Editable Select for seaml
         'Bootstrap',
         'React.js',
         'Redux',
-        // 'Styled Components',
+        'Next.js',
+        'Material UI',
+        'Styled Components',
         // 'Formik',
         // 'Yup',
-        // 'Chart.js',
-        // 'React Storybook',
+        'Chart.js',
+        'React Storybook',
       ],
     },
     {

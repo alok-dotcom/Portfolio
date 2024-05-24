@@ -1,8 +1,8 @@
-import styles from "./Info.module.css";
-import Cards from "../Cards/Cards";
-import infoData from "../../data/info-data";
-import Skills from "../Skills/Skills";
-import { useEffect, useRef } from "react";
+import styles from './Info.module.css';
+import Cards from '../Cards/Cards';
+import infoData from '../../data/info-data';
+import Skills from '../Skills/Skills';
+import { useEffect, useRef } from 'react';
 
 const Info = ({ changeActive }) => {
   const { experience, education, projects, skills } = infoData;
@@ -49,45 +49,45 @@ const Info = ({ changeActive }) => {
     changeActive,
   ]);
   return (
-    <section className={styles["info"]}>
-      <div id="experience" ref={experienceRef}>
-        <h1 className={styles["info-section-heading"]}>
+    <section className={styles['info']}>
+      <div id='experience' ref={experienceRef}>
+        <h1 className={styles['info-section-heading']}>
           Experience
-          <div className={styles["info-section-line"]}></div>
+          <div className={styles['info-section-line']}></div>
         </h1>
         <Cards data={experience} />
       </div>
-      <div id="education" ref={educationRef}>
-        <h1 className={styles["info-section-heading"]}>
+      <div id='education' ref={educationRef}>
+        <h1 className={styles['info-section-heading']}>
           Education
-          <div className={styles["info-section-line"]}></div>
+          <div className={styles['info-section-line']}></div>
         </h1>
         <Cards data={education} />
       </div>
-      <div id="projects" ref={projectsRef}>
-        <h1 className={styles["info-section-heading"]}>
+      <div id='projects' ref={projectsRef}>
+        <h1 className={styles['info-section-heading']}>
           Projects
-          <div className={styles["info-section-line"]}></div>
+          <div className={styles['info-section-line']}></div>
         </h1>
         <Cards data={projects} isProjects={true} />
       </div>
-      <div id="skills" ref={skillsRef}>
-        <h1 className={styles["info-section-heading"]}>
+      <div id='skills' ref={skillsRef}>
+        <h1 className={styles['info-section-heading']}>
           Skills
-          <div className={styles["info-section-line"]}></div>
+          <div className={styles['info-section-line']}></div>
         </h1>
         <Skills data={skills} />
       </div>
-      <div id="resume" ref={resumeRef}>
-        <h1 className={styles["info-section-heading"]}>
+      <div id='resume' ref={resumeRef}>
+        <h1 className={styles['info-section-heading']}>
           Resume
-          <div className={styles["info-section-line"]}></div>
+          <div className={styles['info-section-line']}></div>
         </h1>
         <a
-          className={styles["info-section-download-btn"]}
-          href="https://drive.google.com/file/d/15ESjSEKM2D4UKx1hfDilCNOEi_GJ4oNF/view"
-          target="_blank"
-          rel="noreferrer"
+          className={styles['info-section-download-btn']}
+          href='https://drive.google.com/file/d/1frswCiELcurXLivxpEry4SJ6Ysvy2sJK/view'
+          target='_blank'
+          rel='noreferrer'
           download
         >
           Download Resume
